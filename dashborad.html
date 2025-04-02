@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://kit.fontawesome.com/622ab59b13.js" crossorigin="anonymous"></script>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Boldonse&family=Permanent+Marker&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet"> -->
+
+        <!-- Font Family -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Boldonse&family=Cabin+Sketch:wght@400;700&family=Permanent+Marker&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- main container  -->
+    <main class="container">
+
+        <!-- left-side container  -->
+        <section class="left">
+            <img src="./multimedia/TBO.jpg">
+            <h2>Domingos Quipaca</h2>
+            <br><br>
+            <br>
+            <div class="man-details">
+                <a href="#dash">
+                    <i class="fa-solid fa-bars"> &nbsp; DASHBOARD</i> <br><br><br>
+                </a>
+                <a href="#data">
+                    <i class="fa-solid fa-database">&nbsp; &nbsp; DATA</i> <br><br><br>
+                </a>
+                <a href="#users">
+                    <i class="fa-solid fa-users">&nbsp; &nbsp;USERS</i> <br><br><br>
+                </a>
+                <a href="#schedule">
+                    <i class="fa-solid fa-calendar-days">&nbsp; &nbsp; SCHEDULE</i> <br><br><br>
+                </a>
+                <a href="#contact">
+                    <i class="fa-solid fa-address-book">&nbsp; &nbsp; CONTACT</i> <br><br><br>
+                </a>
+            </div>
+        </section>
+
+        <!-- right-side container  -->
+        <section class="right">
+            <header id="dash">                
+                    <h1 >DASHBOARD</h1>                
+                <input placeholder="Search..." style="border-radius: 5px; border:none; padding:5px;" />
+            </header>
+
+            <!-- Article 1: Dashborad-->
+            <article id="graph">
+                <div>
+                    <h2>Activities</h2>
+                    <h3>MAY-JUNE 2024</h3>
+                </div>
+                <div>
+                    <img src="./multimedia/BarGraph.png">
+                </div>
+
+            </article>
+
+            <!-- Article 2 -->
+            <article id="dashboard">
+
+                <h2 id="data">DASHBOARD DATA</h2>
+
+                <div id="box-display">
+                    <div class="box" id="box1">
+                        <i class="fa-solid fa-sack-dollar"></i>
+                        <p>Total Revenue</p>
+                        <p>$456,553,563</p>
+                    </div>
+                    <div class="box" id="box2">
+                        <i class="fa-solid fa-database"></i>
+                        <p>Total Transaction</p>
+                        <p>1,450</p>
+                    </div>
+                    <div class="box" id="box3">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <p>Total Likes</p>
+                        <p>1,234</p>
+                    </div>
+                    <div class="box" id="box4">
+                        <i class="fa-solid fa-users"></i>
+                        <p>Total Users</p>
+                        <p>856</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Article 3: Table -->
+            <article id="interaction">
+                <h2 id="users">USER INTERACTIONS</h2>
+                <table>
+                    <tr>
+                        <th>Month</th>
+                        <th>Number of Users</th>
+                    </tr>
+                    <tr>
+                        <td>January</td>
+                        <td>1000</td>
+                    </tr>
+                    <tr>
+                        <td>February</td>
+                        <td>1200</td>
+                    </tr>
+                    <tr>
+                        <td>March</td>
+                        <td>1500</td>
+                    </tr>
+                    <tr>
+                        <td>April</td>
+                        <td>1250</td>
+                    </tr>
+                    <tr>
+                        <td>May</td>
+                        <td>1600</td>
+                    </tr>
+
+
+                </table>
+            </article>
+
+            <!-- Article 4 -->
+            <article id="schedule">
+                <div class="schedule-header">
+                    <h2>Todays's Schedule</h2>
+                    <span >See All</span>
+                </div>
+
+                <div class="color1">
+                    <h2>MEETING FROM SUPPLIERS FROM KUTTA BALI</h2>
+                    <p>14.00-15.00</p>
+                    <p>AT SUNSET ROAD KUTTA BALI</p>
+                </div>
+
+                <div class="color2">
+                    <h2>MEETING FROM SUPPLIERS FROM SURESH</h2>
+                    <p>15.00-16.00</p>
+                    <p>AT SUNSET ROAD KUTTA BALI</p>
+                </div>
+                
+                <div class="color1">
+                    <h2>MEETING FROM SUPPLIERS FROM AJAY</h2>
+                    <p>16.00-17.00</p>
+                    <p>AT SUNSET ROAD KUTTA BALI</p>
+                </div>
+                <div class="color2">
+                    <h2>MEETING FROM SUPPLIERS FROM ENCOPRICE</h2>
+                    <p>17.00-18.00</p>
+                    <p>AT SUNSET ROAD KUTTA BALI</p>
+                </div>
+                <div class="color1">
+                    <h2>MEETING FROM SUPPLIERS FROM JK LTD.</h2>
+                    <p>17.00-18.00</p>
+                    <p>AT SUNSET ROAD KUTTA BALI</p>
+                </div>
+                <div class="color2">
+                    <h2>MEETING FROM SUPPLIERS FROM MANAGER</h2>
+                    <p>17.00-18.00</p>
+                    <p>AT SUNSET ROAD KUTTA BALI</p>
+                </div>
+            </article>
+
+
+            <!-- Article 5: Contact Details -->
+            <article id="contact">
+                <h2>CONTACT DETAILS</h2>
+                <div class="map-feedback">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d486418.4989318353!2d82.93291900741431!3d17.737828228285334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39431389e6973f%3A0x92d9c20395498468!2sVisakhapatnam%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1743358179099!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <!-- FeedBack Form -->
+                <form action="" method="post" target="_blank" class="feedback-form">
+
+                    <fieldset>
+                        <legend>&nbsp;<span style="font-weight: bold; text-decoration:underline;">FEEDBACK</span> &nbsp;</legend>
+                        <input type="text" placeholder="Your Name" class="form-details" required> <br>
+                        <input type="email" placeholder="Your Email" class="form-details" required> <br>
+                        <textarea name="text" id="feedback" placeholder="Your Feedback" rows="19" required style=" border-radius: 5px; padding:5px;"></textarea> <br>
+                        <button type="submit">Submit Feedback</button>
+                    </fieldset>
+                </form>
+                </div>
+            </article>
+
+            <footer>
+                
+                <div class="nav">
+                    <a href="">
+                        <i class="fa-brands fa-facebook"> &nbsp;&nbsp;</i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram">&nbsp;&nbsp;</i>
+                    </a>                  
+                    
+                    <a href="https://www.linkedin.com/in/domingos-quipaca-61810423a/">
+                        <i class="fa-brands fa-linkedin">&nbsp;&nbsp;&nbsp;</i>
+                    </a>                
+                </div>
+                <p>&copy; 2024 YOUR COMPANY NAME. ALL RIGHTS RESERVED</p>
+            </footer>
+
+        </section>
+
+
+    </main>
+</body>
+
+</html>

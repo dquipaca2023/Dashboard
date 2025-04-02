@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;      
+    
+}
+
+body{
+    background-color: rgb(226, 226, 226);    
+    font-family: "Macondo", cursive;
+    overflow-x: hidden;
+    font-size:90%;
+    
+}
+
+.container{    
+    width: 96vw;
+    height: 96vh;
+    padding:20px;       
+    display: flex;    
+    gap: 30px;
+}
+
+.left{        
+    background-color: black;    
+    padding: 20px;
+    color: white;
+    width: 15vw;   
+    height: 90vh;
+    border-radius: 20px;    
+    text-align: center;       
+    position: fixed;
+    top:20px;
+    left:20;   
+    
+}
+
+.left img{
+    width:150px;
+    height: 150px;        
+    border-radius: 50%; 
+    object-fit: cover;       
+}
+
+.left img:hover{
+    width:160px;
+    height:160px;
+    border-radius:50%;
+    cursor:pointer;
+    
+}
+.left h2:hover{
+    color: rgb(167, 167, 167);
+    cursor: pointer;
+
+}
+.man-details{
+    text-align: justify;
+    padding-left: 30px;
+}
+.man-details>a{
+    font-family: "Macondo", cursive;
+    color: rgb(255, 255, 255);    
+}
+
+.man-details>a:hover{
+    color: orange;
+}
+
+/* Right-Side */
+header{
+    display:flex;
+    gap:65%;    
+}
+
+.right{
+    background-color: rgb(226, 226, 226);
+    color: black;
+    width: 65vw;        
+    border-radius: 25px;
+    margin-top: 10px;
+    padding: 20px;    
+    margin-left: 360px;
+}
+
+#graph{
+    background-color: white;
+    width: 90%;
+    border-radius:10px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+#graph img{
+  width:100%; 
+  height: 100%;
+  object-fit: cover;
+}
+
+#dashboard>h2, #interaction>h2, #contact>h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;    
+}
+article>h2:hover{
+    font-size:25px;
+    cursor: pointer;
+}
+
+
+
+#box-display{
+    display: flex;   
+    gap:12px;
+    justify-content: space-between;
+    flex-wrap: nowrap;    
+}
+
+.box{
+    text-align:left;
+    width: 170px;
+    height: 80px;    
+    border-radius: 15px;    
+    padding:20px;
+    
+}
+
+.box>i{
+    margin-left:170px;
+}
+
+#box1{
+    background-color:lightblue;
+}
+
+#box2{
+    background-color: lightgoldenrodyellow;
+}
+
+#box3{
+    background-color: lightcoral;
+}
+#box4{
+    background-color: lightcyan;
+}
+/* Applying hover to Boxes */
+#box1:hover{
+    cursor: pointer;
+    background: radial-gradient(rgb(184, 121, 121), rgb(32, 32, 32));
+    color:rgb(224, 224, 224);
+}
+
+#box2:hover{
+    cursor: pointer;
+    background: radial-gradient(lightblue, rgb(244, 247, 74));
+    color:rgb(48, 48, 48);
+}
+#box3:hover{
+    cursor: pointer;
+    background: radial-gradient(rgb(184, 121, 121), rgb(32, 32, 32));
+    color:rgb(224, 224, 224);
+}
+#box4:hover{
+    cursor: pointer;
+    background: radial-gradient(lightblue, rgb(244, 247, 74));
+    color:rgb(48, 48, 48);
+}
+
+/* TABLE */
+table{
+    vertical-align: middle;
+    width: 100%;
+    height:50%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+table, tr,td,th{
+    padding:15px;
+    text-align:center;
+}
+th{
+    background-color: rgb(129, 79, 79);
+}
+
+tr:nth-child(even){
+    background-color: rgb(255, 255, 255);
+}
+
+/* Schedule */
+#schedule{
+    background-color: white;
+    width: 62vw;
+    height:380px;
+    border-radius: 10px;
+    padding:20px;
+    overflow: scroll;
+    overflow-x: hidden;    
+    font-size:12px;
+}
+
+tr:hover{
+    background-color: rgb(165, 179, 184);
+    cursor: pointer;
+}
+/* @font-face{
+    font-family: ShortBaby-Mg2w;
+    src: url(./multimedia/ShortBaby-Mg2w.ttf);
+}
+#schedule{
+    font-family:ShortBaby-Mg2w;
+    font-size: 16px;
+} */
+.schedule-header{
+    display: flex;
+    gap:600px;       
+    margin-bottom:15px;
+}
+.schedule-header>span:hover{
+    font-size: 14px;
+    color: rgb(118, 184, 143);
+    cursor: pointer;
+}
+
+.color1{    
+    border-left: 4px solid;   
+    border-color:rgb(84, 187, 110);
+    margin-bottom:10px;
+    padding: 10px;
+}
+
+.color2{    
+    border-left: 4px solid;   
+    border-color:rgb(111, 84, 187);
+    margin-bottom:10px;
+    padding: 10px;
+}
+
+#schedule p{
+    color:rgb(168, 165, 165);
+}
+
+/* Contact Details */
+#contact{
+    margin-top:20px;    
+}
+.map-feedback{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap:5px;
+    justify-content: space-evenly;    
+    height: 500px;
+    padding:20px;    
+}
+
+iframe{
+    width:98%;
+    height:98%;
+    border-radius: 10px;
+}
+
+/* FEEDBACK FORM */
+fieldset{
+    padding:15px;
+    width: 97%;
+    height: 92%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border-radius: 10px;        
+    background-color: white;
+}
+.form-details{
+    width: 100%;
+    height:30px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding:2px;
+}
+button{
+    height:30px;
+    border-radius: 10px;
+    border:none;
+    background-color: rgb(119, 201, 119);
+}
+button:hover{
+    background-color: rgb(135, 179, 194);
+    cursor: pointer;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    text-align:center;
+    padding:20px;
+    width:94%;
+    height:70px;
+    border-radius:10px;
+    margin-left: 20px;
+}
+
+.nav{
+    margin-bottom:10px;
+}
+.nav>a{
+    color: white;
+    text-decoration:none;
+    font-size: 25px;        
+}
+
+.nav a:hover{
+    color:rgb(168, 168, 168);
+}
